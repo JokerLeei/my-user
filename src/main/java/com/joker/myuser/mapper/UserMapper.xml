@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.myuser.mapper.UserMapper">
+<mapper namespace="com.joker.myuser.mapper.UserMapper">
 
-    <resultMap id="BaseResultMap" type="com.example.myuser.model.User">
+    <resultMap id="BaseResultMap" type="com.joker.myuser.model.User">
         <id property="id" column="id" jdbcType="BIGINT" />
         <result property="name" column="name" jdbcType="VARCHAR" />
         <result property="age" column="age" jdbcType="INTEGER" />
@@ -11,7 +11,7 @@
         <result property="updateTime" column="update_time" jdbcType="TIMESTAMP" />
     </resultMap>
 
-    <insert id="insert" parameterType="com.example.myuser.model.User">
+    <insert id="insert" parameterType="com.joker.myuser.model.User">
         INSERT INTO `joker`.`user`
         (
             `name`,
@@ -31,7 +31,7 @@
         WHERE `id` = #{id}
     </delete>
 
-    <update id="updateById" parameterType="com.example.myuser.model.User">
+    <update id="updateById" parameterType="com.joker.myuser.model.User">
         UPDATE `joker`.`user`
         SET
             `name` = #{user.name},

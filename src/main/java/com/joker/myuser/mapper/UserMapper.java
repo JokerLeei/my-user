@@ -1,6 +1,6 @@
-package com.example.myuser.mapper;
+package com.joker.myuser.mapper;
 
-import com.example.myuser.model.User;
+import com.joker.myuser.model.User;
 
 import org.apache.ibatis.annotations.Param;
 

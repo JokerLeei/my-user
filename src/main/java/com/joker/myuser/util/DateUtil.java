@@ -1,4 +1,4 @@
-package com.example.myuser.util;
+package com.joker.myuser.util;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

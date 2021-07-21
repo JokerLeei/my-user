@@ -1,4 +1,4 @@
-package com.example.myuser.config;
+package com.joker.myuser.config.datasource;
 
 /**
  * datasource bean name

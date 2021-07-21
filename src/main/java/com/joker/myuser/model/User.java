@@ -1,4 +1,4 @@
-package com.example.myuser.model;
+package com.joker.myuser.model;
 
 import java.time.LocalDateTime;
 

@@ -1,4 +1,4 @@
-package com.example.myuser.request;
+package com.joker.myuser.request;
 
 import lombok.Data;
 
